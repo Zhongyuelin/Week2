@@ -1,0 +1,21 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+
+```{r}
+#install.packages("readxl")
+
+library(readxl)
+
+fileName="wapubschool.xlsx"
+
+dataExcel=read_excel(fileName)
+
+head(dataExcel)
+```
+
